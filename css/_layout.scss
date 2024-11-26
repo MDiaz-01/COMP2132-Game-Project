@@ -1,0 +1,61 @@
+
+@import 'variables';
+
+body {
+    font-family: Arial, sans-serif;
+    background: $background-black;
+    color: $text-white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+  
+header {
+    background: $background-gray;
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+  
+    h1 {
+      color: $primary-blue;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    #instruction {
+      position: fixed;
+      top: 5%;
+      left: 90%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+nav {
+    margin: 2rem;
+    display: flex;
+    gap: 6rem;
+  
+    #dice-box, #hagman-box {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+  
+      img {
+        height: 10rem;
+        width: 10rem;
+      }
+  
+      button {
+        font-size: 1rem;
+        padding: 0.8rem;
+        border: none;
+        cursor: pointer;
+        border-radius: 0.3rem;
+        transition: transform 0.3s;
+        width: 10rem;
+        height: 5rem;
+      }
+    }
+  }

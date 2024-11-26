@@ -1,0 +1,29 @@
+
+@import 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 18px;
+    min-width: 600px;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    margin: 1.5rem;
+    font-size: 1.8rem;
+    color: $text-gray;
+  }
+  
+  h2 {
+    margin-bottom: 0.8rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
